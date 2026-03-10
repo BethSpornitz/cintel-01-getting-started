@@ -5,15 +5,24 @@
 # WHY: Centralizes project configuration.
 
 [project]
-name = "cintel" # Package distribution name (lowercase and dashes).
+name = "cintel"
 readme = "README.md"
 requires-python = ">=3.14"
 version = "0.1.0"
+description = "Professional Python project for continuous intelligence."
+
+authors = [
+    { name = "Beth Spornitz" }
+]
 
 dependencies = [
-    # REQ.DEPS: External packages used by the project code.
     "datafun-toolkit",
 ]
+
+[project.urls]
+Homepage = "https://github.com/BethSpornitz/cintel-01-getting-started"
+Repository = "https://github.com/BethSpornitz/cintel-01-getting-started"
+Documentation = "https://BethSpornitz.github.io/cintel-01-getting-started/"
 
 [project.optional-dependencies]
 # WHY: Optional dependency groups keep the core install clean and focused.
